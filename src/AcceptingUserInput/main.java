@@ -1,4 +1,4 @@
-package mad_lips_game;
+package AcceptingUserInput;
 
 import java.util.Scanner;
 
@@ -20,5 +20,7 @@ public class main {
         area = (width * height) / 2;
 
         System.out.println("Area is " + area);
+
+        scanner.close();
     }
 }
