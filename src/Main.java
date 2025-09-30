@@ -15,8 +15,17 @@ public class Main {
 
         boolean isStudent = true;
 
-        if(isStudent){
-            System.out.println("you are student");
-        }
+        String name = "Nyakallo Mahlakametsa";
+        String food = "pizza";
+        String email = "Fake123@gmail.com";
+        String car = "Mustang";
+        String color = "red";
+
+        System.out.println("Hello " + name);
+        System.out.println("You are " + age + " years old.");
+        System.out.println("Your gpa is " + gpa);
+        System.out.println("Your average letter grade is: " + grade);
+
+        System.out.println("your choice is a " + color + " " + year + " " + car);
     }
 }
