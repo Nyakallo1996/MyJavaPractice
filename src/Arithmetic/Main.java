@@ -5,16 +5,25 @@ public class Main {
 
         // Arithmetic Operators
 
-        int x = 10;
-        int y = 2;
-        int z;
+       // int x = 10;
+        //int y = 2;
+        //int z;
 
         //z = x + y;
         //z = x - y;
         //z = x * y;
         //z = x / y;
-        z = x % y;
+        //z = x % y;
 
-        System.out.println(z);
+        // Increment and Decrement Operators
+
+        //int x = 1;
+
+        //x++;
+        //x++;
+        //++x;
+
+
+       // System.out.println(x);
     }
 }
