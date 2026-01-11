@@ -28,7 +28,7 @@ public class Main {
 
         }
 
-        System.out.println("You have quit the game");*/
+        System.out.println("You have quit the game");
 
         int age = 0;
 
@@ -41,7 +41,16 @@ public class Main {
             age = scanner.nextInt();
         }
 
-        System.out.println("Your age is " + age);
+        System.out.println("Your age is " + age);*/
+
+        int number = 0;
+
+        do {
+            System.out.println("Enter a number between 1 and 10");
+            number = scanner.nextInt();
+        } while(number < 1 || number > 10);
+
+        System.out.println("You picked " + number + " number");
 
         scanner.close();
     }
