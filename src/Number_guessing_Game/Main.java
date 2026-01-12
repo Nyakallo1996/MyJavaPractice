@@ -18,7 +18,7 @@ public class Main {
         int randomNumber = random.nextInt(min, max +1);
 
         System.out.println("Number Guessing Game");
-        System.out.println("Gues a number between 1-10: ");
+        System.out.println("Guess a number between 1-10: ");
 
         do{
             System.out.print("Enter a guess: ");
