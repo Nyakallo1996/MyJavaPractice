@@ -15,7 +15,15 @@ public class Main {
 
         String fullName = getFullName("John", "Smith");
         System.out.println(fullName);
-        System.out.println(ageCheck(12));
+
+        int age = 10;
+
+        if(ageCheck(age)){
+            System.out.println("You may sign up!");
+        }
+        else{
+            System.out.println("You must be 18+ to sign up!");
+        }
 
 
 
