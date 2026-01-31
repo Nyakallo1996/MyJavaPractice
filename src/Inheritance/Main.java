@@ -9,8 +9,10 @@ public class Main {
 
         Dog dog = new Dog();
         Cat cat = new Cat();
+        Plant plant = new Plant();
 
         System.out.println(dog.isAlive);
         cat.eat();
+        plant.phototsynthesize();
     }
 }
